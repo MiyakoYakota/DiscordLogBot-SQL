@@ -1,0 +1,24 @@
+{
+  "name": "discordlogbot-sql",
+  "version": "1.0.0",
+  "description": "Log discord messages to SQL server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiyakoYakota/DiscordLogBot-SQL.git"
+  },
+  "author": "Miyako Yakota",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/MiyakoYakota/DiscordLogBot-SQL/issues"
+  },
+  "homepage": "https://github.com/MiyakoYakota/DiscordLogBot-SQL#readme",
+  "dependencies": {
+    "discord.js-selfbot": "^12.0.2",
+    "dotenv": "^8.2.0",
+    "mariadb": "^2.5.2"
+  }
+}
